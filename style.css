@@ -1,0 +1,85 @@
+body{
+    margin-left:0;
+    margin-right:0;
+    margin-top:0;
+    margin-bottom:0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:#7aa784;
+}
+#upper-bar{
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    height:80px;
+    top:10%;
+    background-color:#7aa784;
+    font-size: 170%;
+}
+#one{
+    color:white;
+    text-align: center;
+    width:25%;
+    padding-top:1.5%;
+    height:auto;
+    float:left;
+}
+#two{
+    color:white;
+    text-align: center;
+    width:25%;
+    padding-top:1.5%;
+    height:auto;
+    float:left;
+}
+#three{
+    color:white;
+    text-align: center;
+    width:25%;
+    padding-top:1.5%;
+    height:auto;
+    float:left;
+}
+#four{
+    color:white;
+    text-align: center;
+    width:25%;
+    padding-top:1.5%;
+    height:auto;
+    float:left;
+}
+#main{
+    width:100%;
+    height:auto;
+}
+.introductions{
+    display: flex;
+    background-color:#7aa784;
+    justify-content: space-around;
+    height: 400px;
+    margin: 50px;
+}
+.lighter{
+    background-color: #9cc496;
+}
+.pictures{
+    display: flex;
+    justify-content: space-around;
+    margin:15px;
+    padding: 15px;
+}
+.text{
+    margin:15px;
+    color:white;
+    padding: 15px;
+}
+.subheader{
+    display:flex;
+    margin-top: 250px;
+    margin-bottom: 100px;
+}
+.bottom{
+    display: flex;
+    background-color: black;
+    padding: 30px;
+    margin-top: 200px;
+}
