@@ -4,7 +4,14 @@ body{
     margin-top:0;
     margin-bottom:0;
     font-family: 'Courier New', Courier, monospace;
-    background-color:#7aa784;
+    background-image: url(images/tea-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+a {
+    color:white;
+    text-decoration:none;
 }
 #upper-bar{
     display: flex;
@@ -13,7 +20,9 @@ body{
     height:80px;
     top:10%;
     background-color:#7aa784;
+    opacity: 0.5;
     font-size: 170%;
+    float:right;
 }
 #one{
     color:white;
@@ -45,37 +54,61 @@ body{
     width:25%;
     padding-top:1.5%;
     height:auto;
-    float:left;
-}
-#main{
-    width:100%;
-    height:auto;
-}
-.introductions{
-    display: flex;
-    background-color:#7aa784;
-    justify-content: space-around;
-    height: 400px;
-    margin: 50px;
-}
-.lighter{
-    background-color: #9cc496;
-}
-.pictures{
-    display: flex;
-    justify-content: space-around;
-    margin:15px;
-    padding: 15px;
-}
-.text{
-    margin:15px;
-    color:white;
-    padding: 15px;
+    float:right;
 }
 .subheader{
     display:flex;
     margin-top: 250px;
     margin-bottom: 100px;
+    margin-left: 200px;
+}
+.background{
+    display: flex;
+    background-color:#ededdf;
+    justify-content:baseline;
+    padding-top: 150px;
+    height: 700px;
+}
+.introductions{
+    display: flex;
+    background-color:#ededdf;
+    justify-content: space-around;
+    height: 400px;
+}
+#carouselPlaceholder{
+    display: flex;
+    background-color:#ededdf;
+}
+#carouselExampleSlidesOnly{
+    width:180%;
+    justify-content: space-around;
+    margin:30px;
+    padding:15px;
+}
+.pictures{
+    display: flex;
+    justify-content: space-around;
+    margin:30px;
+    padding:15px;
+}
+.text{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:15px;
+    color:black;
+    padding: 15px;
+}
+.location{
+    display: flex;
+    background-color:#ededdf;
+    justify-content: space-around;
+    height: 400px;
+}
+@media(max-width:768px){
+    .location{
+        flex-direction: column;
+    }
 }
 .bottom{
     display: flex;
@@ -83,3 +116,4 @@ body{
     padding: 30px;
     margin-top: 200px;
 }
+
