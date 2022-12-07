@@ -308,6 +308,16 @@ a {
         flex-direction: column;
     }
 }
-
+.footer{
+    display: flex;
+    background-color: black;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
 
 
