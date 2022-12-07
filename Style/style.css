@@ -5,7 +5,7 @@ body{
     margin-top:0;
     margin-bottom:0;
     font-family: 'Courier New', Courier, monospace;
-    background-image: url(images/tea-background.jpg);
+    background-image: url(../images/tea-background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:cover;
@@ -148,11 +148,7 @@ a{
     background-color: black;
 }
 .fa{
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
+    padding: 10px;
 } 
 
 
