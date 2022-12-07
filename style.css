@@ -69,6 +69,11 @@ a {
     padding-top: 150px;
     height: 700px;
 }
+@media(max-width:768px){
+    .background{
+        height: 1000px;
+    }
+} 
 .introductions{
     display: flex;
     background-color:#ededdf;
@@ -85,11 +90,23 @@ a {
     margin:30px;
     padding:15px;
 }
+/*https://raybo.org/posts/2021-03-27-consistent-height-carousels-with-css-gradients-by-hacking-the-bootstrap-5-carousel/*/
+.carousel-item img{
+  height:40vh;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+  
+}
 .pictures{
-    display: flex;
-    justify-content: space-around;
-    margin:30px;
-    padding:15px;
+  display:flex;
+  justify-content: space-around;
+  margin-top:15px;
+  height:40vh;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+   
 }
 .text{
     display:flex;
@@ -99,6 +116,10 @@ a {
     color:black;
     padding: 15px;
 }
+.p-link{
+    color:black;
+    text-decoration: underline;
+}
 .location{
     display: flex;
     background-color:#ededdf;
@@ -107,7 +128,7 @@ a {
 }
 @media(max-width:768px){
     .location{
-        flex-direction: column;
+        height: 1000px;
     }
 }
 .bottom{
@@ -115,5 +136,17 @@ a {
     background-color: black;
     padding: 30px;
     margin-top: 200px;
+    align-items: center;
 }
+.footer{
+    display: flex;
+    background-color: black;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}  
 
