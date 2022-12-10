@@ -84,7 +84,7 @@ a{
     height: 400px;
     width:100%;
 }
-/*-Carousel inside of placeholders on Home page*/
+/*-Carousel inside of placeholders on Home page-*/
 #carouselPlaceholder{
     display: flex;
     background-color:#ededdf;
@@ -96,8 +96,8 @@ a{
     justify-content: space-around;
     padding-left:15px;
 }
-/*https://raybo.org/posts/2021-03-27-consistent-height-carousels-with-css-gradients-by-hacking-the-bootstrap-5-carousel/*/
-.carousel-item img{
+/* Reference - https://raybo.org/posts/2021-03-27-consistent-height-carousels-with-css-gradients-by-hacking-the-bootstrap-5-carousel/*/
+#carouselExampleSlidesOnly .carousel-item img{
     height:40vh;
     object-fit: cover;
     object-position: center;
@@ -122,9 +122,19 @@ a{
     color:black;
     padding: 15px;
 }
-.p-link{
-    color:black;
-    text-decoration: underline;
+.pathing{
+    background-color:#ededdf;
+    color:#7aa784;
+    border: 1px solid #7aa784;
+    border-radius: 8px;
+    width: 25%;
+}
+.pathing:hover{
+    background-color:#7aa784;
+    color:#ededdf;
+    border: 1px solid #7aa784;
+    border-radius: 8px;
+    width: 25%;
 }
 .location{
     display: flex;
@@ -298,7 +308,7 @@ form input, form textarea, form button{
 @media (min-width: 768px){
 .product-image:hover{
     transform: scale(1.4);
-    /*https://www.w3schools.com/howto/howto_css_zoom_hover.asp*/
+    /*Reference - https://www.w3schools.com/howto/howto_css_zoom_hover.asp*/
 }
 }
 .bi-arrow-up-circle-fill{
