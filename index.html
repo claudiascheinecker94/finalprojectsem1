@@ -1,19 +1,25 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="en">
     <head>
-        <title>Home</title>
+        <title>The Tea Shop - Home</title>
+        <!--Bootstrap-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="Style/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--CSS-->
+        <link rel="stylesheet" href="Style/style.css">
+        <!--Metadata-->
+        <meta name="description" content="Welcome to The Tea Shop, a small Dublin based tea shop sourcing tea's (and snacks) from around the world and bringing them to you.">
+        <meta name="keywords" content="tea, tea shop, dublin, small business, local, sustainably, quality, china, japan, india, organic">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <!--Nav Bar-->
+        <!--Nav Bar - Coded by Claudia-->
         <div id="upper-bar">
             <div class="link" id="one"><a href="index.html">Home</a></div>
-            <div class="link" id="two"><a href="About us/about.html">About Us</a></div>
+            <div class="link" id="two"><a href="About-Us/about.html">About Us</a></div>
             <div class="link" id="three"><a href="Menu/menu.html">Menu</a></div>
-            <div class="link" id="four"><a href="Contact us/contact.html">Contact Us</a></div>
+            <div class="link" id="four"><a href="Contact-Us/contact.html">Contact Us</a></div>
         </div>
         <br>
         <br>
@@ -53,28 +59,31 @@
         <br>
         <br>
          <!--Introduction of Products-->
-         <div class="background">
+         <div class="background col-md">
             <!--Reference - https://getbootstrap.com/docs/4.0/components/carousel/#slides-only-->
-            <div id="carouselPlaceholder" class="introductions row">
-            <div id="carouselExampleSlidesOnly" class="carousel slide pictures col-md" data-bs-ride="carousel">
+            <div  class="introductions row carouselPlaceholder">
+            <div class="carousel slide pictures col-md carouselExampleSlidesOnly" data-bs-ride="carousel">
                <div class="carousel-inner">
                    <div class="carousel-item" data-bs-interval="5000">
                        <img src="images/Quality-Chinese-tea-21-1200x800.jpeg" class="d-block w-100" alt="chinese leaf tea">
+                       <!--Image taken from: https://teachapter.com/category/tea/-->
                    </div>
                    <div class="carousel-item active" data-bs-interval="5000">
                        <img src="images/Enjoying-a-Tea-Ceremony.jpeg" class="d-block w-100" alt="hot water poured from into a cup">
+                       <!--Image taken from: https://magnifissance.com/selfcare/tea/tea-ceremony-at-home/-->
                    </div>
                    <div class="carousel-item" data-bs-interval="5000">
-                       <img src="images/smaller tea set.png" class="d-block w-100" alt="japanese style tea set up in nature">
+                       <img src="images/smaller-tea-set.png" class="d-block w-100" alt="japanese style tea set up in nature">
+                       <!--Image taken from: https://www.myjapanesehome.com/collections/japanese-tea-pots-->
                    </div>
                </div>
              </div>
              <div class="text col-md">
-               <h4><strong>...a diverse assortment of products..</strong></h4>
+               <h3><strong>...a diverse assortment of products..</strong></h3>
                <br>
-               <p>Tea drinking is a centuries-old practice with a rich history steeped in tradition. Tea is experiencing a revival, with the focus on high quality, flavour, and authenticity. And we are not just talking about basic black tea in a boring old teabag. Green, black, white, red, oolong, pu-erh – there are vast array of tea varieties waiting to be discovered, the rituals and cultures of tea to be explored.</p>
-               <!--Reference - https://www.w3schools.com/html/html_links.asp-->
-               <button class="pathing" onclick="document.location='Menu/menu.html'">Go to Menu</button>
+               <p>Tea drinking is a centuries-old practice with a rich history steeped in tradition. Tea is experiencing a revival, with the focus on high quality, flavour, and authenticity. And we are not just talking about basic black tea in a boring old teabag. Green, black, white, red, oolong, pu-erh – there are vast array of tea varieties waiting to be discovered, the rituals and cultures of tea to be explored. Find the full range of products here.</p>
+                <!--Reference - https://www.w3schools.com/html/html_links.asp-->
+                <button class="pathing" onclick="document.location='Menu/menu.html'">Go to Menu</button>
             </div>
         </div>
         </div>
@@ -92,62 +101,69 @@
         <br>
         <!--Introdcution of Ethics-->
         <div class="background">
-        <div id="carouselPlaceholder" class="introductions row">
-            <div class="text col-md">
-                <h4><strong>...sustainably sourced...</strong></h4>
-                <br>
-                <p>As the second most consumed beverage in the world and increasing commercialization due to demand, the tea industry has become filled with unsustainable practices like wasteful packaging, worker exploitation and environmental destruction. However, it doesn’t have to be this way! We are committed to a sustainable business model.</p>
-            </div>
-            <!--Reference - https://getbootstrap.com/docs/4.0/components/carousel/#slides-only-->
-            <div id="carouselExampleSlidesOnly" class="carousel slide pictures col-md" data-bs-ride="carousel">
-               <div class="carousel-inner">
-                   <div class="carousel-item" data-bs-interval="5000">
-                       <img src="images/tea leaves in hand.jpeg" class="d-block w-100" alt="two hand holding tea leaves">
-                   </div>
-                   <div class="carousel-item active" data-bs-interval="5000">
-                       <img src="images/tea field second option.jpeg" class="d-block w-100" alt="tea plantation in asia">
-                   </div>
-                   <div class="carousel-item" data-bs-interval="5000">
-                       <img src="images/tea plantation.jpeg" class="d-block w-100" alt="tea pantation in asia">
-                   </div>
-               </div>
+            <div class="introductions row carouselPlaceholder">
+                <div class="text col-md">
+                    <h3><strong>...sustainably sourced...</strong></h3>
+                    <br>
+                    <p>As the second most consumed beverage in the world and increasing commercialization due to demand, the tea industry has become filled with unsustainable practices like wasteful packaging, worker exploitation and environmental destruction. However, it doesn’t have to be this way! We are committed to a sustainable business model. More on this here.</p>
+                </div>
+                <!--Reference - https://getbootstrap.com/docs/4.0/components/carousel/#slides-only-->
+                <div class="carousel slide pictures col-md carouselExampleSlidesOnly" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="images/tea-leaves-in-hand.jpeg" class="d-block w-100" alt="two hand holding tea leaves">
+                            <!--Image taken from: https://www.booking.com/articles/around-the-world-in-8-cups-of-tea.id.html-->
+                        </div>
+                        <div class="carousel-item active" data-bs-interval="5000">
+                            <img src="images/tea-field-second-option.jpg" class="d-block w-100" alt="tea plantation in asia">
+                            <!--Image taken from: https://www.pureceylontea.com/how-do-we-market-sri-lanka-globally-as-a-unique-country-green-socio-economic-system/-->
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="images/tea-plantation.jpg" class="d-block w-100" alt="tea pantation in asia">
+                            <!--Image taken from: https://theculturetrip.com/asia/south-korea/articles/stunning-pictures-of-south-koreas-tea-plantations/-->
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        </div>
-           <br>
-           <br>
-           <br>
-           <br>
-           <br>
-           <br>
-           <br>
-           <br>
-           <br>
-           <br>
-           <br>
-           <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <!--Introdcution of Quality-->
         <div class="background">
+        <div class="introductions row carouselPlaceholder">
             <!--Reference - https://getbootstrap.com/docs/4.0/components/carousel/#slides-only-->
-        <div id="carouselPlaceholder" class="introductions row">
-            <div id="carouselExampleSlidesOnly" class="carousel slide pictures col-md" data-bs-ride="carousel">
+            <div class="carousel slide pictures col-md carouselExampleSlidesOnly" data-bs-ride="carousel">
                <div class="carousel-inner">
                    <div class="carousel-item" data-bs-interval="2000">
-                       <img src="images/Screenshot 2022-11-13 at 12.18.11.png" class="d-block w-100" alt="tea set in nature">
+                       <img src="images/Screenshot-2022-11-13-at-121811.png" class="d-block w-100" alt="tea set in nature">
+                       <!--Image taken from: https://zicxa.com/blog/topic/japanese-tea-->
                    </div>
                    <div class="carousel-item active" data-bs-interval="2000">
-                       <img src="images/high quaity tea.jpeg" class="d-block w-100" alt="assortment of different quality tea leaves">
+                       <img src="images/high-quaity-tea.jpeg" class="d-block w-100" alt="assortment of different quality tea leaves">
+                       <!--Image taken from: https://medium.com/@teakruthi/the-best-tea-brands-in-the-market-1d57247dd2a5-->
                    </div>
                    <div class="carousel-item" data-bs-interval="2000">
-                       <img src="images/112906.jpeg" class="d-block w-100" alt="twigs from a sakura trea in the sun">
+                       <img src="images/112906.jpg" class="d-block w-100" alt="twigs from a sakura trea in the sun">
+                       <!--Image taken form: https://wallpapers.com/nature-->
                    </div>
                </div>
              </div>
              <div class="text col-md">
-                <h4><strong>...of highest quality...</strong></h4>
+                <h3><strong>...of highest quality...</strong></h3>
                 <br>
                 <p>Our teas are carefully selected single-origin offerings originating from the finest estates in China, Japan, India, and other tea growing regions worldwide. We stock exclusively full leaf teas, ethically sourced, and many of them organic.</p>
-                <button class="pathing" onclick="document.location='About us/about.html'">Learn More</button>
+                <!--Reference - https://www.w3schools.com/html/html_links.asp-->
+                <button class="pathing" onclick="document.location='About-Us/about.html'">Learn More</button>
             </div>
         </div>
         </div>
@@ -166,15 +182,16 @@
         <!--introductions of Location-->
         <div class="location row">
             <div class="text col-md">
-                <h4><strong>...at any of our locations.</strong></h4>
+                <h3><strong>...at any of our locations.</strong></h3>
                 <br>
                 <p>We invite you to step out of the busy city and pause, relax, and share conversation over tea. You can find us Monday-Sunday from 8am-8pm. Enjoy the moment, it's tea time.</p>
-                <button class="pathing" onclick="document.location='Contact us/contact.html'">Find us</button>
+                <!--Reference - https://www.w3schools.com/html/html_links.asp-->
+                <button class="pathing" onclick="document.location='Contact-Us/contact.html'">Find us</button>
             </div>
             <div class="pictures col-md">
-                <img src="images/tea shop.jpeg" alt="inside of a tea shop">
+                <img src="images/tea-shop.jpeg" alt="inside of a tea shop">
+                <!--Image taken from: https://www.thehousecollective.com/en/the-temple-house/restaurants-and-bars/mi-xun-teahouse/-->
             </div>
-        </div>
         </div>
         <br>
         <br>
@@ -183,6 +200,7 @@
         <br>
         <br>
         <!--newsletter + footer-->
+        <!--Reference - https://getbootstrap.com/docs/4.0/components/input-group/#basic-example-->
         <div class="row py-4 text-white bottom">
             <div class="col-md">
                 <p><strong>Weekly Newsletter</strong></p>
@@ -190,7 +208,6 @@
             </div>
             <div class="col-md col-lg-5 ms-auto">
                 <p><strong>Stay up-to-date on new products and upcoming events</strong></p>
-            <!--Reference (partly taken) - https://getbootstrap.com/docs/4.0/components/input-group/#basic-example-->
                 <div class="input-group mb-3">
                     <input type="text" class="form-control" id="input" placeholder="Email address" aria-label="Email address" aria-describedby="button-addon2">
                     <button class="btn btn-secondary" type="button" id="button-addon2" onclick="newsletter()">Sign up</button>
@@ -202,7 +219,7 @@
                 <a href="#" class="fa fa-twitter"></a>
                 <a href="#" class="fa fa-instagram"></a>
                 <a href="#" class="fa fa-linkedin"></a>
-                <a href="https://www.youtube.com/watch?v=LaLvVc1sS20&ab_channel=TED-Ed" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-youtube"></a>
             </div>
           </div>
           <script src=Javascript/Script.js></script>
